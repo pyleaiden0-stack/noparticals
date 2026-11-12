@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.potato.noparticles.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ParticleManagerMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

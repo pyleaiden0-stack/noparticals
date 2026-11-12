@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "noparticles",
+  "version": "${version}",
+  "name": "No Particles",
+  "description": "Removes ALL particles for more FPS.",
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["noparticles.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11"
+  }
+}
